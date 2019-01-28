@@ -14,7 +14,7 @@ spec:
           name: redis
           protocol: TCP
     - name: python
-      image: vkovelkar/kovelkar:py-red
+      image: vkovelkar/kovelkar:latest
       env:       
         - name: "REDIS_HOST"
           value: "localhost"
